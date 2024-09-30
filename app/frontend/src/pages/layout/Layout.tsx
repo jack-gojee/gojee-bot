@@ -41,7 +41,7 @@ const Layout = () => {
                     <Link to="/" className={styles.headerTitleContainer}>
                         <h3 className={styles.headerTitle}>{t("headerTitle")}</h3>
                     </Link>
-                    <nav>
+                    {/* <nav>
                         <ul className={`${styles.headerNavList} ${menuOpen ? styles.show : ""}`}>
                             <li>
                                 <NavLink
@@ -62,8 +62,11 @@ const Layout = () => {
                                 </NavLink>
                             </li>
                         </ul>
-                    </nav>
-                    <div className={styles.loginMenuContainer}>
+                    </nav>  */}
+                    <div className={styles.headerLogo}>
+                        <img src="src/assets/Gojeelogobrightgreen.svg" className={styles.headerLogo} />
+                    </div>
+                    {/* <div className={styles.loginMenuContainer}>
                         {useLogin && <LoginButton />}
                         <IconButton
                             iconProps={{ iconName: "GlobalNavButton" }}
@@ -71,7 +74,7 @@ const Layout = () => {
                             onClick={toggleMenu}
                             ariaLabel={t("labels.toggleMenu")}
                         />
-                    </div>
+                    </div> */}
                 </div>
             </header>
 

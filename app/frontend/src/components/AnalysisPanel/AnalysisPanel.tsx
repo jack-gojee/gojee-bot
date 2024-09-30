@@ -77,20 +77,22 @@ export const AnalysisPanel = ({ answer, activeTab, activeCitation, citationHeigh
             selectedKey={activeTab}
             onLinkClick={pivotItem => pivotItem && onActiveTabChanged(pivotItem.props.itemKey! as AnalysisPanelTabs)}
         >
+            {/* To-Do For DEVS: uncomment the lines below to see how the AI arrived at its answer in the citation tab when clicking on a linked document from an answer.
             <PivotItem
                 itemKey={AnalysisPanelTabs.ThoughtProcessTab}
                 headerText={t("headerTexts.thoughtProcess")}
                 headerButtonProps={isDisabledThoughtProcessTab ? pivotItemDisabledStyle : undefined}
             >
                 <ThoughtProcess thoughts={answer.context.thoughts || []} />
-            </PivotItem>
+            </PivotItem> 
             <PivotItem
                 itemKey={AnalysisPanelTabs.SupportingContentTab}
                 headerText={t("headerTexts.supportingContent")}
                 headerButtonProps={isDisabledSupportingContentTab ? pivotItemDisabledStyle : undefined}
             >
                 <SupportingContent supportingContent={answer.context.data_points} />
-            </PivotItem>
+            </PivotItem> 
+            */}
             <PivotItem
                 itemKey={AnalysisPanelTabs.CitationTab}
                 headerText={t("headerTexts.citation")}

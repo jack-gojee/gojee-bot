@@ -108,11 +108,11 @@
     }
 
     .chatEmptyState {
-        padding-top: 3.75rem;
+        /* padding-top: 3.75rem; */
     }
 
     .chatEmptyStateTitle {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .chatInput {
