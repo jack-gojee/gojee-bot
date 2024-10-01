@@ -64,7 +64,7 @@ const Layout = () => {
                         </ul>
                     </nav>  */}
                     <div className={styles.headerLogo}>
-                        <img src="src/assets/Gojeelogobrightgreen.svg" className={styles.headerLogo} />
+                        <img src="/Gojeelogobrightgreen.svg" className={styles.headerLogo} />
                     </div>
                     {/* <div className={styles.loginMenuContainer}>
                         {useLogin && <LoginButton />}
