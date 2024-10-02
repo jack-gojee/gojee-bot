@@ -64,7 +64,9 @@ const Layout = () => {
                         </ul>
                     </nav>  */}
                     <div className={styles.headerLogo}>
-                        <img src="/Gojeelogobrightgreen.svg" className={styles.headerLogo} />
+                        <a href="https://www.gojeeapp.com.au/knowledge-base/">
+                            <img src="/Gojeelogobrightgreen.svg" className={styles.headerLogo} />
+                        </a>
                     </div>
                     {/* <div className={styles.loginMenuContainer}>
                         {useLogin && <LoginButton />}
