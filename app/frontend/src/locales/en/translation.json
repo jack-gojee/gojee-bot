@@ -1,6 +1,6 @@
 {
-    "pageTitle": "Gojee Chat Bot",
-    "headerTitle": "Gojee Chat Bot",
+    "pageTitle": "Gojee AI Assistant",
+    "headerTitle": "AI Powered User Guide",
     "chat": "Chat",
     "qa": "Ask a question",
     "login": "Login",
@@ -21,7 +21,7 @@
     },
     "developerSettings": "Developer settings",
 
-    "chatEmptyStateTitle": "AI powered chat",
+    "chatEmptyStateTitle": "Chat with our user guide",
     "chatEmptyStateSubtitle": "Ask anything or try an example",
     "defaultExamples": {
         "1": "How do I create a job?",

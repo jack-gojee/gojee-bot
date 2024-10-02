@@ -94,6 +94,7 @@ bp = Blueprint("routes", __name__, static_folder="static")
 # Fix Windows registry issue with mimetypes
 mimetypes.add_type("application/javascript", ".js")
 mimetypes.add_type("text/css", ".css")
+mimetypes.add_type("image/svg+xml", ".svg")  # Add this line for SVG support
 
 
 @bp.route("/")
@@ -112,6 +113,9 @@ async def redirect():
 async def favicon():
     return await bp.send_static_file("favicon.ico")
 
+@bp.route("/Gojeelogobrightgreen.svg")
+async def Gojeelogobrightgreen():
+    return await bp.send_static_file("Gojeelogobrightgreen.svg")
 
 @bp.route("/assets/<path:path>")
 async def assets(path):
